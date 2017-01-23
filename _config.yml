@@ -3,23 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Jonathan Murphy's Personal Website!
 subtitle:
-description:
-author: John Doe
+description: This is a professional and personal website for jonathan murphy
+author: Jonathan Murphy
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: jmurphy.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: build
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
