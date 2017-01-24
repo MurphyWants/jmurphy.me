@@ -1,169 +1,79 @@
 <!DOCTYPE html>
 <html>
+<!-- credit where credit is due http://stackoverflow.com/questions/21610677/how-evenly-space-divs-each-of-a-different-width-within-a-parent-div#21610877 -->
+<!-- http://meyerweb.com/eric/tools/css/reset/ -->
+<style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0px;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+.evenly {
+  display:flex;
+  justify-content:space-between;
+  border:solid;
+}
+.evenly div {
+  white-space:nowrap;
+  background:gray;
+}
+.menu-text{
+  color:white;
+  font-size: 30px;
+}
+</style>
 <head>
-  <meta charset="utf-8">
-  
-  <title>Archives: 2017 | Jonathan Murphy&#39;s Personal Website!</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is a professional and personal website for jonathan murphy">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jonathan Murphy's Personal Website!">
-<meta property="og:url" content="jmurphy.me/archives/2017/index.html">
-<meta property="og:site_name" content="Jonathan Murphy's Personal Website!">
-<meta property="og:description" content="This is a professional and personal website for jonathan murphy">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Jonathan Murphy's Personal Website!">
-<meta name="twitter:description" content="This is a professional and personal website for jonathan murphy">
-  
-    <link rel="alternate" href="/atom.xml" title="Jonathan Murphy&#39;s Personal Website!" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
-
+ <meta charset="utf-8">
+ <!-- Use undefined for dynamic title -->
+ <title>undefined</title>
+  <div style="width:100%;background-color:black;height:25%">
+    <div class="evenly">
+      <div class="menu-text">First Item</div>
+      <div class="menu-text">Second Item</div>
+      <div class="menu-text">Third Item</div>
+    </div>
+  </div>
 </head>
-
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Jonathan Murphy&#39;s Personal Website!</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="jmurphy.me"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2017/01/23/hello-world/" class="archive-article-date">
-  <time datetime="2017-01-23T18:19:01.589Z" itemprop="datePublished">Jan 23</time>
-</a>
-      
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/01/23/hello-world/">Hello World</a>
-    </h1>
-  
+ <div class='container'>
+  <div class='row text-center'>
+ <h1>Jonathan Murphy</h1>
+    <p>null</p>
 
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+</div>
+<div class='row'>
+ <ul>
+ 
+     <li>
+      <h3>
+                <a href="/2017/01/23/hello-world/">
+           Hello World
+          </a>
+            </h3>
+            <div class='text-muted'>
+                2017-01-23 
+            </div>
+            
+            
+     </li>
+   
+ </ul>
+</div>
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017/01/23/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2017 Jonathan Murphy<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-  </div>
+ </div>
 </body>
 </html>

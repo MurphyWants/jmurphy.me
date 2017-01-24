@@ -34,12 +34,14 @@ time, mark, audio, video {
 .menu-text{
   color:white;
   font-size: 30px;
+  margin:2px;
+  
 }
 </style>
 <head>
  <meta charset="utf-8">
- <!-- Use undefined for dynamic title -->
- <title>undefined</title>
+ <!-- Use <%= page.title %> for dynamic title -->
+ <title><%= page.title %></title>
   <div style="width:100%;background-color:black;height:25%">
     <div class="evenly">
       <div class="menu-text">First Item</div>
@@ -50,30 +52,7 @@ time, mark, audio, video {
 </head>
 <body>
  <div class='container'>
-  <div class='row text-center'>
- <h1>Jonathan Murphy</h1>
-    <p>null</p>
-
-</div>
-<div class='row'>
- <ul>
- 
-     <li>
-      <h3>
-                <a href="/2017/01/23/hello-world/">
-           Hello World
-          </a>
-            </h3>
-            <div class='text-muted'>
-                2017-01-23 
-            </div>
-            
-            
-     </li>
-   
- </ul>
-</div>
-
+  <%- body %>
  </div>
 </body>
 </html>
