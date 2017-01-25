@@ -2,6 +2,7 @@
 <html>
 <!-- credit where credit is due http://stackoverflow.com/questions/21610677/how-evenly-space-divs-each-of-a-different-width-within-a-parent-div#21610877 -->
 <!-- http://meyerweb.com/eric/tools/css/reset/ -->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
 <style>
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -27,12 +28,13 @@ time, mark, audio, video {
 }
 .evenly div {
   white-space:nowrap;
-  background:gray;
 }
 .menu-text{
-  color:white;
   font-size: 30px;
   margin:2px;
+	font-family:Vollkorn, serif;
+	padding-left:20px;
+	padding-right:20px;
 }
 
 .header-menu{
@@ -43,10 +45,12 @@ time, mark, audio, video {
 	overflow:hidden;
 	position: fixed;
 	top:0;
+	opacity: 0.75;
 }
 
 body{
 	margin-top:50px;
+	background-color:#7BD1ED;
 }
 </style>
 <head>
@@ -55,18 +59,17 @@ body{
  <title><%= page.title %></title>
   <div class="header-menu">
     <div class="evenly">
-			<div class="menu-text">Logo</div>
-      <div class="menu-text">First Item</div>
-      <div class="menu-text">Second Item</div>
-      <div class="menu-text">Third Item</div>
-			<div class="menu-text">Fourth Item</div>
+			<div class="menu-text">jmurphy</div>
+      <div class="menu-text">About</div>
+      <div class="menu-text">Goals</div>
+      <div class="menu-text">Projects</div>
+			<div class="menu-text">Contact</div>
     </div>
   </div>
 </head>
 <body>
  <div class='container'>
   <%- body %>
-	a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>a </br>
- </div>
+	 </div>
 </body>
 </html>
