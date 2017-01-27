@@ -5,3 +5,5 @@ tags:
 category: goal
 ---
 This is a test of goals
+<!-- more -->
+This is more of a test

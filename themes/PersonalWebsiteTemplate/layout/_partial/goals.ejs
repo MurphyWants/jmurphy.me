@@ -2,6 +2,11 @@
 	<% site.categories.findOne({name: 'goal'}).posts.sort('date', -1).each(function(post){ %>
 	    <li>
 	      <a href="<%- url_for(post.path) %>"><%= post.title || '(no title)' %></a>
+				<% if(post.excerpt) { %>
+						<p>
+								<%- post.excerpt %>
+						</p>
+				<% } %>
 	    </li>
 	<% }) %>
 </div>
