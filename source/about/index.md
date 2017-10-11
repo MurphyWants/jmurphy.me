@@ -1,4 +1,6 @@
 ---
-title: about
-date: 2017-01-28 23:10:28
+title: About
+date: 2017-10-11 13:17:05
 ---
+<!-- more -->
+About page
