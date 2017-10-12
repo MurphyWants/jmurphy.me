@@ -2,21 +2,23 @@
 
 </div>
 <div class='row'>
- <% page.posts.each(function(post){ %>
-      <h3>
+  <div class="line-break"> </div>
+  <% page.posts.each(function(post){ %>
+    <h3>
                 <a href="<%- url_for(post.path) %>">
            <%= post.title %>
           </a>
             </h3>
-            <div class='text-muted'>
-                <%= date(post.date, config.date_format) %>
-            </div>
+    <div class='text-muted'>
+      <%= date(post.date, config.date_format) %>
+    </div>
 
-            <% if(post.excerpt) { %>
-                <p>
-                    <%- post.excerpt %>
-                </p>
-              </br> 
-            <% } %>
-   <% }) %>
+    <% if(post.excerpt) { %>
+      <p>
+        <%- post.excerpt %>
+      </p>
+      </br>
+      <% } %>
+        <div class="line-break"> </div>
+        <% }) %>
 </div>
