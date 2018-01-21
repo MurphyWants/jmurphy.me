@@ -2,10 +2,10 @@
 menu:
   ## If your site is put in a subdirectory, set Home as '/child/'
   Home: /
-  Archives: archives
   Goals: goals
   Projects: projects
   Contact: contact
+  Archives: archives
 
 social:
   email:
