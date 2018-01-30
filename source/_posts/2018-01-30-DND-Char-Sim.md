@@ -13,3 +13,4 @@ In the spring of 2017, I was in the class "Organization of Programming Languages
 ## Short Description of the Project
 
 ![Class][/images/DND-Char-Sheet/Class.png]
+{% asset_img DND-Char-Sheet/Class.png This is an example image %}
