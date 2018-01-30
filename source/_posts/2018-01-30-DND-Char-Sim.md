@@ -10,4 +10,6 @@ tags: Projects
 
 In the spring of 2017, I was in the class "Organization of Programming Languages" which was often shortened to OPL. The content of the class included various programming language concepts including imperative, functional and object oriented programming. Other topics including iteration, recursion, various high-order functions and inheritance. The majority of the class was programming concepts in [Racket](https://racket-lang.org/) with a small part of the assignments in [Haskell](https://www.haskell.org/).
 
-## Short Description of the Project 
+## Short Description of the Project
+
+![Class][/images/DND-Char-Sheet/Class.png]
