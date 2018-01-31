@@ -13,4 +13,4 @@ In the spring of 2017, I was in the class "Organization of Programming Languages
 ## Short Description of the Project
 
 ![][Class.png]
-{% asset_img Class.png This is an example image %}
+{% asset_img :title/Class.png This is an example image %}
